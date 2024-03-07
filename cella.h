@@ -4,10 +4,7 @@
 template <class tipoelem>
 class Cella{
 public:
-    typedef Cella<tipoelem>* posizione;
-
-    typedef Cella<tipoelem>* NODO;
-  	
+    
     tipoelem dato;
 	Cella<tipoelem> *prec;
 	Cella<tipoelem> *succ;
